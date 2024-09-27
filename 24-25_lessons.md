@@ -9,5 +9,8 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 ### 27.9.2024
 
-Kris - mars rover ukoly (vyreseny 1-5); cykly, promenna na flipovani uhlu
-Vlada - zaklady prace se zelvou, nahodna cisla do promenne
+- Kris 
+  - mars rover ukoly (vyreseny 1-5); cykly, promenna na flipovani uhlu
+  - zalozeni github uctu, commit, push
+
+- Vlada - zaklady prace se zelvou, nahodna cisla do promenne
