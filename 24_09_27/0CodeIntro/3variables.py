@@ -1,3 +1,4 @@
+# Do you understand the following code? Explain what will happen exactly!
 
 penize = 0
 
