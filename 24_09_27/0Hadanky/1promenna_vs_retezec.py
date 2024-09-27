@@ -1,4 +1,4 @@
-# Jaky je rozdil mezi nasledujicimi
+# Jaky je rozdil mezi nasledujicimi printy
 
 kakadu = "papousek"
 
