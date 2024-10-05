@@ -14,3 +14,23 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - zalozeni github uctu, commit, push
 
 - Vlada - zaklady prace se zelvou, nahodna cisla do promenne
+
+## Říjen 
+
+### 4.10.2024
+
+#### Prubeh
+
+- Kris + Vlada
+  - hadanky na zacatek - `0indentace.py` a `1promenna_vs_retezec.py`
+  - prace na programu generujici collatzovu posloupnost pro nejake cislo
+
+- Kris
+  - dokoncovani programu se zombiky ve scratchi
+    - spravne fungovani srdicek, omezeny pocet naboju
+
+
+#### Priste
+
+- seznamy - inventar a obchod
+- mozna minecraft education
