@@ -19,8 +19,6 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 ### 4.10.2024
 
-#### Prubeh
-
 - Kris + Vlada
   - hadanky na zacatek - `0indentace.py` a `1promenna_vs_retezec.py`
   - prace na programu generujici collatzovu posloupnost pro nejake cislo
@@ -30,7 +28,15 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
     - spravne fungovani srdicek, omezeny pocet naboju
 
 
-#### Priste
+- priste
+  - seznamy - inventar a obchod
+  - mozna minecraft education
 
-- seznamy - inventar a obchod
-- mozna minecraft education
+### 11.10.2024
+
+- Kris + Vlada
+  - hadanka na scitani retezcu vs cisel
+  - prace se soubory - cteni ze seznamu vyplat, vytvoreni mnoha souboru
+
+- priste
+  - seznamy - inventar a obchod
