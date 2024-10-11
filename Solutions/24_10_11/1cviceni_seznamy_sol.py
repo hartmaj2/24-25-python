@@ -23,6 +23,8 @@ def print_inventory():
 #   3. armor
 #   4. shield
 
+print()
+print_inventory()
 print("Items in store: ")
 for i in range(len(store_items)):
     print(f"  {i+1}. {store_items[i]}")
@@ -33,24 +35,25 @@ for i in range(len(store_items)):
 # 2. pridas tento predmet do seznamu `inventory`
 # POZOR: tvuj program by mel fungovat i v pripade, ze v obchodu budou uplne jine predmety
 
-print("\nTED SI NECO KOUPIM\n")
+# print("\nTED SI NECO KOUPIM\n")
 
-item = store_items[1]
-store_items.remove(item)
-inventory.append(item)
+# item = store_items[1]
+# store_items.remove(item)
+# inventory.append(item)
 
-print_store_items()
-print_inventory()
+# print_store_items()
+# print_inventory()
 
 # TODO: Nech uzivatele zvolit cislo predmetu, ktery chce koupit a pridej mu ten predmet do inventare
 
-volba = input("Zadej cislo predmetu: ")
+volba = input("\nZadej cislo predmetu: ")
 item = store_items[int(volba)-1]
 store_items.remove(item)
 inventory.append(item)
 
-print_store_items()
+print()
 print_inventory()
+print_store_items()
 
 # BONUS: hezky design tohoto programu by byl takovy, 
 # ze pro vytisknuti veci v obchode bychom si napsali funkci
