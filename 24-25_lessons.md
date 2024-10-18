@@ -40,3 +40,22 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 - priste
   - seznamy - inventar a obchod
+
+### 18.10.2024
+
+- Kris + Vlada
+  - hadanka na ruzne druhy cyklu
+  - lehci sviceni se seznamy hotovo
+    - indexace
+    - append
+    - pop
+    - remove
+
+- Kris 
+  - zacatek prace na tezsim cviceni
+    - funguje odecteni ceny pri nakupu
+    - chyby kontrola, zda mame dost penez
+
+- priste
+  - cookie clicker
+    - budeme mackat klavesy misto mysi
