@@ -59,3 +59,13 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 - priste
   - cookie clicker
     - budeme mackat klavesy misto mysi
+
+### 25.10.2024
+
+- Vlada
+  - hadanka - lokalni promenne ve funkcich
+  - navratova hodnota funkce
+  - herni enginy - godot, unity, unreal engine
+  - programovaci jazyky - kompilovane vs interpretovane
+    - python, c++, c#
+    - srovnani rychlosti python a c++
