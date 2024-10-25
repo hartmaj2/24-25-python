@@ -69,3 +69,6 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - programovaci jazyky - kompilovane vs interpretovane
     - python, c++, c#
     - srovnani rychlosti python a c++
+
+- priste 
+  - cookie clicker pomoci funkci
