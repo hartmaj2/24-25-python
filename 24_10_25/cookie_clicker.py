@@ -1,9 +1,13 @@
+### SIMPLE COOKIE CLICKER MADE WITH LISTS USING GAME_STATE PATTERN ###
+
+
 # TODO: Zamyslet se nad obecnym navrhem hry nez zacneme programovat.
 # 1. Nakreslit si schema TYPU veci, ktere se ve hre vyskytuji a jake maji vlastnosti (hra samotna, hrac, obchod, predmet)
 # 2. Jakym zpusobem bude hra komunikovat s hracem (mackani enteru asi, jak se bude vykreslovat vysledek?)
 
-# Game loop pattern - input, update, draw
-# GAME_STATE -> in_clicker; in_shop
+# Navrhnout hru pomoci hernich stavu, at se nam o tom lepe premysli
+# V kazdem stavu je potreba - neco vytisknout hraci, nechat hrace neco zadat, zareagovat na jeho volbu
+# Konkretne je dulezite se zamyslet nad: jake jsou ve hre stavy? jake ma hra prechody?
 
 import os
 
@@ -12,20 +16,12 @@ IN_SHOP = "in_shop"
 GAME_OVER = "game_over"
 JUST_CLICKED = "just_clicked"
 
-GRANDMA = "grandma"
-TURBO_OVEN = "turbo oven"
-SHOP_ITEMS = [GRANDMA,TURBO_OVEN]
+SHOP_ITEMS = ["grandma","turbo oven"]
 
 # simplest version
 ITEM_PRICES = [10,20]
 ITEM_BOOSTS = [1,2]
 
-
-# better version (dictionary)
-ITEM_PRICES2 = {GRANDMA : 10, TURBO_OVEN : 20}
-ITEM_BOOSTS2 = {GRANDMA : 1, TURBO_OVEN : 2}
-
-inventory2 = {}
 
 def clear_screen():
     os.system("clear")
@@ -44,7 +40,7 @@ def print_choices():
     elif game_state == IN_SHOP:
         print("Just press space to exit")
         for i in range(len(SHOP_ITEMS)):
-            print(f"{i}. {SHOP_ITEMS[i]}, price: {ITEM_PRICES[i]}, boost: {ITEM_PRICES[i]}")
+            print(f"{i}. {SHOP_ITEMS[i]}, price: {ITEM_PRICES[i]}, boost: {ITEM_BOOSTS[i]}")
 
 
 def print_inventory():
@@ -66,7 +62,7 @@ def print_inventory():
 
 
 def process_shop_choice():
-    global points, choice, game_state
+    global cookies, choice, game_state
     if not choice.isnumeric():
         print("Exitting the shop")
         game_state = MAIN_SCREEN
@@ -77,20 +73,20 @@ def process_shop_choice():
         return
     item_name = SHOP_ITEMS[i]
     item_price = ITEM_PRICES[i]
-    if item_price > points:
+    if item_price > cookies:
         print(f"You are too poor to buy {item_name}")
         return 
-    points -= item_price
+    cookies -= item_price
     inventory.append(item_name)
     print(f"You succesfuly bought {item_name}")
 
 
 
 def process_main_screen_choice():
-    global choice, points, game_state
+    global choice, cookies, game_state
     if choice == "":
         game_state = JUST_CLICKED
-        points += calculate_points_gain()
+        cookies += calculate_points_gain()
     elif choice == "0":
         print("Goodbye")
         game_state = GAME_OVER
@@ -108,7 +104,7 @@ def calculate_points_gain():
 
 
 def process_choice():
-    global choice, points, game_state
+    global choice, cookies, game_state
 
     if game_state == MAIN_SCREEN or game_state == JUST_CLICKED:
         process_main_screen_choice()  
@@ -118,18 +114,18 @@ def process_choice():
 
 def print_player():
     print(20*"-")
-    print(f"Points: {points}")
+    print(f"Cookies: {cookies}")
     print(f"Click power {calculate_points_gain()}")
     print_inventory()
     print(20*"-")
 
 def load_player_choice():
     global choice
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice:  ")
 
 inventory = []
 game_state = MAIN_SCREEN
-points = 0
+cookies = 0
 choice = ""
 while game_state != GAME_OVER:
     clear_screen()
