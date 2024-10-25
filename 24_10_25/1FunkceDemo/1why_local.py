@@ -1,6 +1,8 @@
 # Proc by python byl udelany tak, aby promenne uvnitr funkci nemohli byt videne odjinud?
 # Promenna proste po skonceni funkce zahyne, pokud neni global (jinak je takzvane local)
 
+# TODO: Zamyslet se, proc existuji lokalni/globalni promenne?
+
 helpers = ["Legolas","Gimli","Aragorn"]
 helper_powers = [30,20,50]
 
