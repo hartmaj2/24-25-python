@@ -72,3 +72,24 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 - priste 
   - cookie clicker pomoci funkci
+
+## Listopad
+
+### 1.11.2024
+
+- Chris 
+  - zopakovani hadanky z minule hodiny na ktere Chris chybel (lokalni promenne ve funkci)
+
+- Chris a Vlada
+  - planovani programu cookie clicker
+    - rozdelit na co nejlehci podukoly
+  - prace na programu cookie clicker
+    - pricitani skore po zmacknuti enter
+    - vytvoreni stavu 
+      - shop
+      - home
+    - rozdeleni na funkce
+
+- priste
+  - dokoncit obchod s jednim predmetem
+  - pridat dalsi predmety
