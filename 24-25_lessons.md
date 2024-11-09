@@ -93,3 +93,22 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 - priste
   - dokoncit obchod s jednim predmetem
   - pridat dalsi predmety
+
+### 8.11.2024
+
+- Chris a Vlada
+  - hadanky:
+    - priorita operaci v Pythonu
+    - asociativita operaci v Pythonu
+  - cviceni:
+    - rozklad cisel na prvocisla
+
+- priste
+  - chteji dodelat cookie clickera?
+  - jina textova hra?
+    - simulator hrdiny
+    - hangman 
+    - podobne...
+  - uzitecny program z praxe
+    - web scraping?
+    - tvorba grafu pyplot?
