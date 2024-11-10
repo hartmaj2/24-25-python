@@ -10,7 +10,7 @@ start_time = time.time()
 
 while number != 1:
     if number % divisor == 0:
-        number //= divisor # the // is important here!
+        number = number // divisor # the // is important here!
         rozklad.append(divisor)
     else:
         divisor += 1
@@ -28,6 +28,7 @@ print(rozklad)
 # prime 1: 113815369
 # prime 2: 367251953
 # product: 41798916546665657
+# (took 31.84630584716797 seconds in Python)
 # (took 25.508955240249634 seconds in Python)
 # (460 miliseconds in C++)
 
