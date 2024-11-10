@@ -104,6 +104,7 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
     - rozklad cisel na prvocisla
 
 - priste
+  - ukazat pomalost rozkladu a rychlost soucinu dvou velkych prvocisel
   - chteji dodelat cookie clickera?
   - jina textova hra?
     - simulator hrdiny
