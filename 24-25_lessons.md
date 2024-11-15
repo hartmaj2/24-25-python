@@ -113,3 +113,17 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - uzitecny program z praxe
     - web scraping?
     - tvorba grafu pyplot?
+
+### 15.11.2024
+
+- ukazka toho, jak se da vyuzit slozitost rozkladu na prvocisla pri overovani toho, zda nam pocitac nekeca ve hre kamen, nuzky, papir
+- prace na cookie clickerovi 
+  - Vlada - zprovozneni klikani a pridavani skore, rozdeleni na funkce, vypis poctu babicek
+  - Chris - pridani nakupu babicek (cena babicek roste), pocitani click power, pridani dedecku
+
+- priste
+  - nejprve dame stahovat Godot
+  - ukazat shop pomoci seznamu
+  - zaklady Godotu
+    - vysvetlit jak funguje to prostredi
+    - vytvorit jednoduchou hru (catching falling pizza)
