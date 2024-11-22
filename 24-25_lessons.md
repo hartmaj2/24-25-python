@@ -127,3 +127,26 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - zaklady Godotu
     - vysvetlit jak funguje to prostredi
     - vytvorit jednoduchou hru (catching falling pizza)
+
+### 22.11.2024
+
+- tvorba herniho obchodu pomoci seznamu v Pythonu
+  - funguje to vlastne jako tabulka -> nakres na tabuli
+  - zkusit nejprve od jednodussiho po nejtezsi
+  - nove prikazy
+    - `seznam[pozice]`
+    - `seznam.index(prvek)`
+  - hezky vse delat ve funkcich, ktere se pak daji napasovat do stareho programu
+
+- Kris - dodelano tisknuti obchodu i inventare, nakupovani i vypocet power upu, dodelat funkci na Inventorovani (tzn. co delat kdyz je location == "inventory")
+
+- priste
+  - hadanka v Pythonu (zopakovat seznamy, .index())
+  - zaklady v Godotu
+    - ukazka, mensi realne hry
+      - vysvetlit kompozici projektu (scenes, nodes)
+      - scripty (zkusit neco poupravit a co se bude dit)
+    - tvorba zakladu vlastni hry
+      - tvorba postavy
+      - hybani postavou
+      - reakce na tlacitka
