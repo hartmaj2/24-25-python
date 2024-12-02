@@ -30,5 +30,6 @@ Tree made up of **Nodes** which are grouped into **Scenes**. The **Nodes** commu
 
 - allow nodes to communicate with each other
 - observer pattern
+  - things can announce something interesting happened without needing to care who will handle based upon that fact
 
 ## Godot's interface
