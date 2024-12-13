@@ -177,3 +177,7 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - testovani, zda je jmeno v seznamu
   - vyrobeni seznamu s pocty
   - nalezeni jmena s maximalnim poctem
+
+- priste (dat na vyber)
+  - pygame zaklady
+  - pokud bude zajem, tak dalsi ulohu z KSP
