@@ -150,3 +150,30 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
       - tvorba postavy
       - hybani postavou
       - reakce na tlacitka
+  
+### 29.11.2024
+
+- uvod do Godotu
+- vytvoreni noveho projektu
+- pridani hrace a kamery
+- skript pro pohyb hrace
+- pridavani tilesetu - teren
+- pridani kolizi k tilesetu
+
+## Prosinec
+
+### 2.12.2024
+
+- Godot
+  - opakování věcí z minula
+  - plynulejší zastavování hráče po rozběhnutí nějakým směrem
+
+### 13.12.2024
+
+- řešení úlohy z KSP [link](https://ksp.mff.cuni.cz/z/ulohy/36/zadani1.html#task-36-Z1-1)
+  - zamyšlení se nad tím, jak to řešit konceptualne (bez psani kodu)
+  - cteni souboru pomoci prikazu open
+  - ulozeni vsech prectenych jmen do seznamu
+  - testovani, zda je jmeno v seznamu
+  - vyrobeni seznamu s pocty
+  - nalezeni jmena s maximalnim poctem
