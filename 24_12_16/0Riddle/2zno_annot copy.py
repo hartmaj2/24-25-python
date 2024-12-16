@@ -1,3 +1,5 @@
+# Use JSON user settings with `basic` type checking mode
+
 items = []
 
 item_powers = []
