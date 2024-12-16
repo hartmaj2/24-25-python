@@ -7,7 +7,7 @@ screen = pygame.display.set_mode((300,200)) # Vytvorime okno tzv. DISPLAY SURFAC
 # Nyni vyrobime herni smycku (aby se okno vubec ukazalo tak (asi) potrebujeme prochazet
 # vsechny eventy, muzeme vyzkouset, co se vypise)
 
-# TODO: zkus nastavit velikost obrazovky, aby byla hodne vysoka ale malo siroka
+# TODO: zkus nastavit velikost obrazovky, aby byla hodne vysoka ale malo siroka (uzka spageta shora dolu)    
 
 # TODO: zkus si schvalne neco vytisknout na terminal uvnitr herni smycky
 
