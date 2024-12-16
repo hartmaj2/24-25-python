@@ -181,3 +181,15 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 - priste (dat na vyber)
   - pygame zaklady
   - pokud bude zajem, tak dalsi ulohu z KSP
+
+### 16.12.2024
+
+- reseni problemu s `reactivating terminals` ve VSCode
+- reseni ulohy z KSP, kterou Kris zkousel doma, ale nedarila se mu
+  - [link](https://ksp.mff.cuni.cz/cviciste/?task=37-Z2-1)
+  - funkce `split()`
+  - cteni ze souboru, psani do souboru
+
+- priste
+  - dalsi ulohy KSP
+  - pygame
