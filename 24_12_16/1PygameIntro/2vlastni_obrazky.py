@@ -6,7 +6,7 @@ WIDTH = 900
 HEIGHT = 600
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 
-player = pygame.image.load("24_12_13/graphics/Player/jump.png") 
+player = pygame.image.load("24_12_16/graphics/Player/jump.png") 
 player = pygame.transform.rotate(player,180)
 player = pygame.transform.flip(player,True,False)
 

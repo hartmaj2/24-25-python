@@ -7,7 +7,7 @@ HEIGHT = 600
 screen = pygame.display.set_mode((WIDTH,HEIGHT)) 
 clock = pygame.time.Clock() # 1. PRIDAME CLOCK OBJEKT, KTERY MA FUNKCI, KTEROU POTREBUJEME
 
-player = pygame.image.load("24_12_13/graphics/Player/jump.png")
+player = pygame.image.load("24_12_16/graphics/Player/jump.png")
 player_x = 0
 
 

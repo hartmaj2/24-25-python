@@ -7,11 +7,11 @@ HEIGHT = 400
 screen = pygame.display.set_mode((WIDTH,HEIGHT)) 
 clock = pygame.time.Clock()
 
-background = pygame.image.load("24_12_13/graphics/Sky.png")
-ground = pygame.image.load("24_12_13/graphics/ground.png")
+background = pygame.image.load("24_12_16/graphics/Sky.png")
+ground = pygame.image.load("24_12_16/graphics/ground.png")
 
 
-player_surf = pygame.image.load("24_12_13/graphics/Player/player_stand.png")
+player_surf = pygame.image.load("24_12_16/graphics/Player/player_stand.png")
 player_rect = player_surf.get_rect()
 player_rect.midbottom = (100,300)
 
