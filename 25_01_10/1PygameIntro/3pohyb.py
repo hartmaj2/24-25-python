@@ -6,7 +6,7 @@ WIDTH = 500
 HEIGHT = 700
 screen = pygame.display.set_mode((WIDTH,HEIGHT)) 
 
-player = pygame.image.load("24_12_16/graphics/Player/jump.png") 
+player = pygame.image.load("25_01_10/graphics/Player/jump.png") 
 player_x = 250
 player_y = 350
 

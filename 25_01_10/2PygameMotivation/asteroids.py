@@ -25,7 +25,7 @@ pygame.time.set_timer(spawn_event,1000)
 
 class Player(pygame.sprite.Sprite):
 
-    player_surf = pygame.image.load("24_12_16/asteroidgraphics/better_rocket_game.png")
+    player_surf = pygame.image.load("25_01_10/asteroidgraphics/better_rocket_game.png")
     player_surf = pygame.transform.scale_by(player_surf,0.1)
     speed = 5
 
@@ -49,7 +49,7 @@ class Player(pygame.sprite.Sprite):
 class Asteroid(pygame.sprite.Sprite):
 
 
-    asteroid_surf = pygame.image.load("24_12_16/asteroidgraphics/asteroid.png")
+    asteroid_surf = pygame.image.load("25_01_10/asteroidgraphics/asteroid.png")
     asteroid_surf = pygame.transform.scale_by(asteroid_surf,0.15)
     speed = 5
     anim_interval = 100

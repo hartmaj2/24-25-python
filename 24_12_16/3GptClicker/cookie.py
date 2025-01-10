@@ -24,7 +24,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Cookie Clicker")
 
 # Load the cookie image
-cookie_img = pygame.image.load("24_12_16/asteroidgraphics/asteroid.png")  # Replace with the path to your cookie image
+cookie_img = pygame.image.load("25_01_10/asteroidgraphics/asteroid.png")  # Replace with the path to your cookie image
 cookie_img = pygame.transform.scale(cookie_img, COOKIE_SIZE)
 cookie_rect = cookie_img.get_rect(center=(WIDTH // 2, HEIGHT // 2))
 
