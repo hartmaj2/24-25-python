@@ -193,3 +193,24 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 - priste
   - dalsi ulohy KSP
   - pygame
+
+## Leden
+
+### 10.1.2024
+
+- Kris
+  - uvod do pygame
+  - nastaveni velikosti obrazovky
+  - udalosti
+  - Surfaces
+  - blitovani
+  - flipovani displaye
+  - keys a pohyb
+  - popis funkci ve VSC
+
+- priste
+  - zopakovat pygame pro Vladu
+  - vice se soustredit na prakticke vyuziti, nez jak to funguje interne
+    - jak pouzit > jak funguje (priste)
+  - gravitace s podlahou
+  - klikani mysi
