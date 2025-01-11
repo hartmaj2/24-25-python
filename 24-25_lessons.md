@@ -196,7 +196,7 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 ## Leden
 
-### 10.1.2024
+### 10.1.2025
 
 - Kris
   - uvod do pygame
