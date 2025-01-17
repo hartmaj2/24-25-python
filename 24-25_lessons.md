@@ -214,3 +214,26 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
     - jak pouzit > jak funguje (priste)
   - gravitace s podlahou
   - klikani mysi
+
+### 17.1.2025
+
+- prubeh
+  - hadanka na rekurzi
+  - Gaussovska uloha
+    - soucet 1 + 2 + ... + 100
+      - loopovaci
+      - rekurzivni
+      - vzoreckovy
+    - vysvetleni, jak funguje ten vzorecek
+  - jak se koduje text
+    - opacko z minuleho roku
+    - bit vs byte
+    - scitani na pocitaci s 0 a 1
+  - hrani si s pygame
+    - instalace a vandalizacni program v pygame
+
+- priste
+  - zombie shooter v pygame a vse co k tomu bude potreba
+    - generovani zombiku
+    - kolize
+    - seznamy leticich kulek
