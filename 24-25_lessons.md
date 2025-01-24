@@ -237,3 +237,20 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
     - generovani zombiku
     - kolize
     - seznamy leticich kulek
+
+### 24.1.2025
+
+- prace na hre zombie shooter
+  - teorie: tridy a objekty
+  - vytvareni todo listu v markdown
+  - pouzivani Rectu
+  - pojmenovavani konstant
+    - proc to je dulezite
+    - velikost obrazovky
+    - rychlost hrace
+  - nastaveni rychlost snimku za sekundu (fps,framerate) 
+
+- priste
+  - vytvorit tridu pro hrace
+  - opravit rychlost pohybu hrace diagonalne
+  - pracovat na dalsich bodech z todo listu
