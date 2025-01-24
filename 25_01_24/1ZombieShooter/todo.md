@@ -4,6 +4,7 @@
 
 ## Player
 - movement
+  - fix diagonal movement speed
 - rotation
   - how to point to mouse
 
