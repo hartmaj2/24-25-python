@@ -17,6 +17,7 @@ BACKGROUND_COLOR = pygame.color.Color(60, 74, 55)
 # Player
 
 PLAYER_IMAGE = pygame.image.load("25_01_24/1ZombieShooter/player.svg")
+PLAYER_IMAGE_CENTER_OFFSET = 17
 PLAYER_SPEED = 3
 
 class Player:
@@ -89,7 +90,8 @@ class Player:
         self.image = pygame.transform.rotate(PLAYER_IMAGE,360 * self.rotation / (2 * math.pi))
 
         self.image_rect = self.image.get_rect()
-        self.image_rect.center = self.collider.center
+        self.image_rect.centerx = (self.collider.centerx + PLAYER_IMAGE_CENTER_OFFSET * math.cos(self.rotation))
+        self.image_rect.centery = (self.collider.centery - PLAYER_IMAGE_CENTER_OFFSET * math.sin(self.rotation))
  
 
 # Zombie
@@ -157,7 +159,7 @@ def update():
     keys = pygame.key.get_pressed()
     mouse_pos = pygame.mouse.get_pos()
     player.update(keys,mouse_pos)
-    zombie.update((player.collider.centerx,player.collider.centery))
+    # zombie.update((player.collider.centerx,player.collider.centery))
 
 def render():
     global screen, player
