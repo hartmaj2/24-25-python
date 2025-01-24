@@ -17,7 +17,7 @@ BACKGROUND_COLOR = pygame.color.Color(60, 74, 55)
 # Player
 
 PLAYER_IMAGE = pygame.image.load("25_01_24/1ZombieShooter/player.svg")
-PLAYER_IMAGE_CENTER_OFFSET = 17
+PLAYER_IMAGE_CENTER_OFFSET = 14
 PLAYER_SPEED = 3
 
 class Player:
