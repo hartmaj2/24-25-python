@@ -254,3 +254,15 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
   - vytvorit tridu pro hrace
   - opravit rychlost pohybu hrace diagonalne
   - pracovat na dalsich bodech z todo listu
+
+## Unor
+
+### 7.2.2025
+
+Kris + Vlada - rotace obrazku v pygame
+
+Vlada - zaklady v pygame (zmena pozice, nacitani obrazku)
+
+Kris - omezeni behani postavy na pouhy vnitrek obrazovky
+
+- priste - to same co minule
