@@ -266,3 +266,13 @@ Vlada - zaklady v pygame (zmena pozice, nacitani obrazku)
 Kris - omezeni behani postavy na pouhy vnitrek obrazovky
 
 - priste - to same co minule
+
+### 14.2.2025
+
+- Kris 
+  - rozdeleni programu na funkce (rotateBy s parametrem)
+  - korekce rychlosti do diagonalniho smeru (pythagorova veta)
+- Vlada 
+  - pohyb do vsech stran
+  - omezeni pohybu hrace, aby nemohl vyjet z obrazovky
+  - rotace obrazku 
