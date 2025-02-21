@@ -1,3 +1,17 @@
+# This program tries to see how we can loop through configurations of a riddle we tried to solve at home
+
+# Setup when not linear is: 
+# 0 | 1
+# -----
+# 2 | 3
+
+# Linearized setup: [0,1,2,3]
+
+# The riddle has three possible piece types: A,B,C
+# There are 4 pieces bcs there are two pieces of type B
+
+# Operations switch positions of the linearized setup as described in the code below
+
 OPERATIONS = {
     "x":(0,1),
     "y":(2,3),
