@@ -276,3 +276,19 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - pohyb do vsech stran
   - omezeni pohybu hrace, aby nemohl vyjet z obrazovky
   - rotace obrazku 
+
+### 28.2.2025
+
+- Vlada
+  - pocitani pravdepodobnosti pomoci simulace
+  - testovani, jak se chova pravdepodobnostni rozdeleni souctu hodu na dvou kostkach
+    - je rovnomerne rozdelene nebo ne?
+    - prace se seznamem, do ktereho zaznamenavame, kolikrat co padlo
+  - jak spocitat pravdepodobnost, ze padne cislo nejvys rovne sile hrdiny?
+    - soucet pres seznam do hodnoty sily hrdiny
+
+- priste:
+  - simulace sazeni Martingale
+  - simulace nahodne prochazky
+  - simulace pravdepodobnosti, ze ti padne stejne pan jako orlu po n hodech
+  - pokracovani zombiku
