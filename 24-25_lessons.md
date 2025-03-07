@@ -292,3 +292,17 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - simulace nahodne prochazky
   - simulace pravdepodobnosti, ze ti padne stejne pan jako orlu po n hodech
   - pokracovani zombiku
+
+## Brezen
+
+### 7.3.2025
+
+- Kris
+  - ukazka toho co jsme delali minule - kostky
+  - ukazka, jak funguje Martingale strategie sazeni
+  - reseni ulohy Poker z KSP [link](https://ksp.mff.cuni.cz/z/ulohy/37/zadani4.html)
+  - uvod do fungovani trid
+    - vytvoreni objektu
+    - tisknuti objektu
+    - dalsi funkce s objekty
+  - slovnik
