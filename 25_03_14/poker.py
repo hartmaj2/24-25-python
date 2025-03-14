@@ -23,26 +23,28 @@ def check_flush(cards : list[Card]) -> bool:
             return False
     return True
 
-def check_straight(cards : list[Card]):
+def check_straight(cards : list[Card]) -> bool:
     cards.sort(reverse=True)
     firstval = cards[0].power
     for i in range(len(cards)):
-        if cards[0].power != firstval + i:
+        if cards[i].power != firstval - i:
             return False
     return True
 
-def check_n_of_kind(cards : list[Card], n : int):
+def count_n_of_kind(cards : list[Card], n : int) -> int:
     cards.sort(reverse=True)
-    active_power = card[0]
-    amount_same = 1 # we have every time at least one same card to each other
+    count = 0
+    active_power = cards[0].power
+    repetitions = 1 # we have every time at least one same card to each other
     for i in range(1,len(cards)):
         if cards[i].power == active_power: # the next card has same power as the active power
-            amount_same += 1
+            repetitions += 1
         else: # suddenly, we have a new card power (lower), so we reset the counter and start again
             active_power = cards[i].power
-            amount_same = 1 
-        if amount_same == n: # check if we have not encountered n same cards in a row
-            return True
+            repetitions = 1 
+        if repetitions == n: # check if we have not encountered n same cards in a row
+            count += 1
+    return count
 
 class Card:
 
@@ -59,53 +61,75 @@ class Card:
         self.suit = s
 
     #  PRINTING
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.value}{self.suit}"
     
     # COMPARISONS
-    def __eq__(self,other : Card):
+    def __eq__(self,other : Card) -> bool:
         return self.power == other.power
     
-    def __lt__(self, other : Card):
+    def __lt__(self, other : Card) -> bool:
         return self.power < other.power
 
-    def __le__(self, other : Card):
+    def __le__(self, other : Card) -> bool:
         return self < other or self == other
     
-    def __gt__(self, other : Card):
+    def __gt__(self, other : Card) -> bool:
         return not self <= other
 
-    def __ge__(self, other : Card):
+    def __ge__(self, other : Card) -> bool:
         return self > other or self == other
 
 class Player:
 
-    def __init__(self, name : str, cards : list[Card]):
+    def __init__(self, player_string : str):
+        name, card1, card2 = player_string.split()
         self.name = name
-        self.cards = cards
+        self.cards = [Card(card1),Card(card2)]
 
-    def __str__(self):
-        print(f"{self.name}")
+    def __str__(self) -> str:
+        return self.name
 
     # evaluation vector will be 6-tuple where the components of the tuple from left to right denote powers at different comparison levels
     # (explain sorting using multiple runs going from the most specific to least specific tie breaking component)
     def evaluate_hand(self, table_cards : list[Card]):
         ...
 
+# loads the input and returns a list of cards on table and list of players
+def load_input(filename : str) -> tuple[list[Card],list[Player]]:
+    file = open(filename)
+    num_players = int(file.readline())
+    table_cards = create_table_cards(file.readline())
+    players = []
+    for _ in range(num_players):
+        players.append(Player(file.readline()))
+    file.close()
+    return table_cards, players
 
+# given a string of table cards creates the list of those cards
+def create_table_cards(table_cards_string : str) -> list[Card]:
+    table_cards = []
+    for card_string in table_cards_string.split():
+        table_cards.append(Card(card_string))
+    return table_cards    
 
+# DEBUG: creates a deck of all possible cards
+def create_card_deck() -> list[Card]:
+    cards = []
+    for suit in Card.suits:
+        for value in Card.values:
+            cards.append(Card(value + suit))
+    return cards
 
-cards = []
+# given a list of cards prints a string corresponding to the card combination
+def combination_string(cards) -> str:
+    return " ".join([str(card) for card in cards])
 
-for suit in Card.suits:
-    for value in Card.values:
-        cards.append(Card(value + suit))
+input_filename = "input.txt"
+table_cards, players = load_input(input_filename)
 
-random.shuffle(cards)
-
-cards.sort()
-
-for card in cards:
-    print(card)
-
-# TODO: test the functions for combination evaluation
+for player in players:
+    combination = table_cards + player.cards
+    combstring = combination_string(combination)
+    res = count_n_of_kind(combination,3)
+    print(f"{player!s:10}: {combstring:20} has straight: {res:10}")
