@@ -36,13 +36,13 @@ def check_n_of_kind(cards : list[Card], n : int):
     active_power = card[0]
     amount_same = 1 # we have every time at least one same card to each other
     for i in range(1,len(cards)):
-        if amount_same == n: # check if we have not encountered n same cards in a row
-            return True
         if cards[i].power == active_power: # the next card has same power as the active power
             amount_same += 1
         else: # suddenly, we have a new card power (lower), so we reset the counter and start again
             active_power = cards[i].power
             amount_same = 1 
+        if amount_same == n: # check if we have not encountered n same cards in a row
+            return True
 
 class Card:
 
