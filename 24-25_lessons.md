@@ -306,3 +306,15 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - tisknuti objektu
     - dalsi funkce s objekty
   - slovnik
+
+### 14.3.2025
+
+- Kris i Vlada
+  - zopakovani toho, jak funguji tridy
+  - programovani tridy karta
+  - vlastni operator '<'
+  - jak se porovnavaji stringy pomoci '<'
+  - trideni objektu tridy, ktera umi '<'
+
+- priste
+  - pracovat dale na programu poker
