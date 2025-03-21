@@ -17,6 +17,9 @@ class Combination(Enum):
 
     def __lt__(self,other : Combination):
         return self.value < other.value
+    
+    def __str__(self):
+        return self.name
 
 # combinations evaluation
 def check_flush(cards : list[Card]) -> bool:
@@ -110,6 +113,9 @@ class Player:
 
     def __str__(self) -> str:
         return self.name
+    
+    def __repr__(self) -> str:
+        return self.__str__()
 
     # evaluation vector will be 6-tuple where the components of the tuple from left to right denote powers at different comparison levels
     # (explain sorting using multiple runs going from the most specific to least specific tie breaking component)
@@ -152,6 +158,6 @@ def sort_using_combs(input_filename):
         player.evaluate_hand(table_cards)
     players.sort(reverse=True)
     for player in players:
-        print(f"{player!s:10}: {table_cards + player.cards} {"":10} has straight: {player.value:10}") 
+        print(f"{str(player):15} {str(table_cards + player.cards):30} {player.value:10}") 
 
 sort_using_combs(input_filename)
