@@ -318,3 +318,14 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
 
 - priste
   - pracovat dale na programu poker
+
+### 21.3.2025
+
+- Kris i Vlada
+  - Astro Pi Mission Zero
+  - vyuziti api reference pro hledani toho, jak se pouzivaji funkce
+  - animace obrazku pomoci for cyklu
+  - chytre find+replace znaku ve VSCode
+
+- priste
+  - dodelat poker program
