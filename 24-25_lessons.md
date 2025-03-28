@@ -344,3 +344,10 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - prvni je dobre udelat rekapitulaci toho, jake existuji
     - jake jsou jednoduse naprogramovatelne?
   - vytvareni funkce flush : (player, table) -> bool
+
+- priste
+  - pracovat dale na pokeru
+    - muzeme rozdelat slozitejsi pripady na jednodussi?
+    - flush
+    - funkce na pocty danych hodnot
+    - straight
