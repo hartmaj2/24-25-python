@@ -112,7 +112,7 @@ class Player:
 
 # TODO: create a deck of cards using Card.VALUES and Card.SUITS
 
-# TODO: shuffle your deck and then sort it again (use the `random` library)
+# TODO: shuffle your deck and then sort it again (use the `random` module)
 # notice how the sorted cards look, is that what you expect?
 
 # TODO: load the follwing example input (from a file) using our classes
