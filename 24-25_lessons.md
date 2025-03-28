@@ -329,3 +329,18 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
 
 - priste
   - dodelat poker program
+
+### 28.3.2025
+
+- Kris
+  - prace na programu poker
+  - opakovani toho co je trida vs objekt
+  - co je konstruktor `__init__()`
+  - uprava konstruktoru karty a hrace na jednoduse pouzitelnejsi
+    - takovy, co vyrobi kartu/hrace uz z celeho vstupniho retezce (tzn. nepotrebujeme rozdelovat retezec sami, ale udela si to ta vec v konstruktoru)
+    - splitovani retezcu
+    - jak se vyhnout seznamu v seznamu
+  - zamysleni nad tim, jak budeme rozpoznavat jednotlive pokerove kombinace
+    - prvni je dobre udelat rekapitulaci toho, jake existuji
+    - jake jsou jednoduse naprogramovatelne?
+  - vytvareni funkce flush : (player, table) -> bool
