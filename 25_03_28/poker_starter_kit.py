@@ -132,7 +132,7 @@ Tatana Jh 9c
 Borivoj 4d 5d
 """
 
-# TODO: think about how to check different poker combinations given five cards
+# TODO: think about how to check different poker combinations given a set of five cards
 # HINT: can you combine some poker combinations using simpler ones?
 # HINT: think about what combinations will be the easiest to program and start with them
 
