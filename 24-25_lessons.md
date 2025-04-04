@@ -351,3 +351,18 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - flush
     - funkce na pocty danych hodnot
     - straight
+
+### 4.4.2025
+
+- Kris i Vlada
+  - ukazka, proc je dulezite sifrovani v dnesni dobe
+    - http vs https na python serveru, sledovani packetu Wiresharkem
+  - prace na programu poker
+    - detekce flush
+    - nacpat kod, ktery detekuje flush do samostatne funkce
+    - zamysleni: co naprogramovat dalsiho
+      - nejlehci asi zkontrolovat dvojicku
+
+- priste
+  - pracovat na dalsich funkcich
+  - Kris nebude (ma prijmacky)
