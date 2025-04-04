@@ -8,3 +8,6 @@
   - in the https server code
 
 - can I create python server that runs on github hosted webpage?
+
+- does there exist a more user friendly pygame?
+  - rotating a sprite in pygame is horribly hard to explain to newbies
