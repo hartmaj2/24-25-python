@@ -49,21 +49,24 @@ def fibonacci_formula(n : int):
     phi = (math.sqrt(5) + 1) / 2
     return int((phi**(n+1) - (-1/phi)**(n+1)) / math.sqrt(5))
 
-n = 100_000
+n = 500_000
 
 start = time.time()
 fib1 = fibonacci_list(n)
 # print(fib1)
 print(f"time: {time.time()-start}")
 
+# start = time.time()
 # fib2 = fibonacci_recursive(n)
-# print(f"{fib2=}")
+# print(fib2)
 # print(f"time: {time.time()-start}")
 
+start = time.time()
 fib3 = fibonacci_vars(n)
 # print(fib3)
 print(f"time: {time.time()-start}")
 
+# start = time.time()
 # fib4 = fibonacci_formula(n)
-# print(f"{fib4=}")
+# # print(fib4)
 # print(f"time: {time.time()-start}")
