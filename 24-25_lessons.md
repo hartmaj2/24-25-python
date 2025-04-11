@@ -374,6 +374,10 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
 - Kris
 
 - vytvareni webove stranky
+  - vytvorit stranky na githubu
+    - klonovani repozitaru
+    - zaklady prace s repozitari add, commit, push atd.
+    - html file se musi jmenovat index.html
   - co je to html
     - body a hlavicka
     - nezalezi na bilych znacich
