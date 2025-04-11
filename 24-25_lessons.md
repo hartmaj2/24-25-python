@@ -352,6 +352,8 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - funkce na pocty danych hodnot
     - straight
 
+## Duben
+
 ### 4.4.2025
 
 - Kris i Vlada
@@ -366,3 +368,25 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
 - priste
   - pracovat na dalsich funkcich
   - Kris nebude (ma prijmacky)
+
+### 11.4.2025
+
+- Kris
+
+- vytvareni webove stranky
+  - co je to html
+    - body a hlavicka
+    - nezalezi na bilych znacich
+  - tagy
+    - h1, p, a
+    - atributy - style,href atd.
+  - upravovani stylu pres stylesheet
+    - css pravidla
+  - interaktivni ovladani stranky
+    - javascript kod
+
+- priste
+  - zrekapitulovat co jsme delali
+    - dokaze Kris zopakovat Vladovi?
+  - ukazat, jak vypada kod nejake stranky
+    - jak si pujcit nejake veci z jine stranky (inspect html, style)
