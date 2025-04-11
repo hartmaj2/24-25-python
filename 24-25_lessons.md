@@ -394,3 +394,6 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - dokaze Kris zopakovat Vladovi?
   - ukazat, jak vypada kod nejake stranky
     - jak si pujcit nejake veci z jine stranky (inspect html, style)
+  - treba pridat button, ktery resetuje
+
+  - pokracovat na programu poker
