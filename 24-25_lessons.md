@@ -397,3 +397,25 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - treba pridat button, ktery resetuje
 
   - pokracovat na programu poker
+
+### 25.4.2025
+
+- Kris
+  - oprava sve webove stranky (aby kazde nahodne cislo v shopu bylo jine)
+
+- Kris i Vlada
+  - ukazka Krisovy stranky
+  - prace na programu poker
+    - ukazka anotace promennych
+    - anotace navratoveho typu funkce
+    - testovani jeden par
+      - zpusob se seznamem videne
+    - testovani trojice
+      - zpusob s kyblicky
+
+- priste
+  - dokonceni programu poker
+    - pouzit kyblicky na (trojice, dva pary, ctverice, full house)
+    - postupka
+    - postupka v barve
+    - slozit to vse do jednoho uceleneho programu
