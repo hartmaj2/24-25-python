@@ -205,13 +205,12 @@ def rank_to_string(rank : int) -> str:
     return RANK_TO_STR[rank]
 
 
-# TODO: create a deck of cards
-
 deck = []
 for suit in Card.SUITS:
     for value in Card.VALUES:
         deck.append(Card(value + suit))
 
+# TODO: fix two pairs (full house should also be two pairs)
 def get_checks_vect(cards : list[Card]) -> list[int]:
     checks_vect = [0] * len(RANK_TO_STR)
     if check_flush(cards) and check_straight(cards):
@@ -241,3 +240,45 @@ for i in range(trials):
     checks_vect = get_checks_vect(cards)
     probabilities = list(map(lambda x,y : x + y,probabilities,checks_vect))
 print(probabilities)
+
+"""
+How to calculate these probabilities:
+
+possible card combination
+    - nCr(52,5)
+
+straight
+    - a = 9 possible ways a straight can begin (when we imagine the cards sorted)
+    - each card can have 4 colors -> b = 4^5
+    - res = a * b
+
+flush 
+    - a = 4 possible colors
+    - b = nCr(13,5) possible sets of card values
+    - res = a * b
+
+straight flush
+    - a = 9 -||- (see straight)
+    - b = 4 possible colors
+    - res = a * b
+
+quadruple
+    - quadruple is fixed
+    - a = 13 possible values the quadrupled card can have
+    - b = 48 possible other cards to pick
+    - res = a * b
+
+triple
+    - a = 4 ways to pick the colors of the triple (one color always missing)
+    - b = 13 ways to pick the value of the triple
+    - c = nCr(48,2) ways to pick the rest of the cards
+    - res = a * b * c + quadruples
+
+two pair 
+    - a_1 = nCr(4,2) ways to pick colors of the first pair
+    - !!! a_2 = nCr(4,2) ways to pick colors of the second pair
+    - b = nCr(13,2) ways to pick the values of the pairs
+    - c = 48 ways to pick the last card
+    - res = a_1 * a_2 * b * c
+
+"""
