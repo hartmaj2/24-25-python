@@ -419,3 +419,23 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - postupka
     - postupka v barve
     - slozit to vse do jednoho uceleneho programu
+
+## Kveten
+
+### 2.5.2025
+
+- Kris i Vlada
+  - prace na programu poker
+    - vyuziti kyblicku na detekci trojice, ctverice
+    - kontrolovat n-tice misto psani specialnich funkci pro dvoj,troj,ctver-ice
+    - full house
+    - dva pary
+    - straight
+      - Kris - prvni nalezt nejnizsi hodnotu a pak zkusit pet vyssich
+      - Vlada - sekvence peti jednicek v kybliccich
+
+- priste
+  - poradit Krisovi, jak lepe naspat straight (aspon vnorene ify zmenit na and)
+  - straight flush
+  - spocitat rank kombinace
+  - otestovat pravdepodobnosti
