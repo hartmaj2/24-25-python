@@ -435,7 +435,7 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
       - Vlada - sekvence peti jednicek v kybliccich
 
 - priste
-  - poradit Krisovi, jak lepe naspat straight (aspon vnorene ify zmenit na and)
+  - poradit Krisovi, jak lepe napsat straight (aspon vnorene ify zmenit na and)
   - straight flush
   - spocitat rank kombinace
   - otestovat pravdepodobnosti
