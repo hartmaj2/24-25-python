@@ -439,3 +439,23 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - straight flush
   - spocitat rank kombinace
   - otestovat pravdepodobnosti
+
+## 9.5.2025
+
+- Vlada
+  - co to je html?
+  - ukazka toho, jak funguje `inspect` v prohlizeci (Google Chrome)
+  - rozcvicka pythonu na Umime informatiku
+    - bonus: jak obejit limit smazanim cookies
+    - bonus2: jak obejit limit jinde pomoci VPN
+  - tvorba jednoduche html stranky hostovane na GitHubu
+    - prihlaseni do profilu
+    - vytvoreni repozitare
+    - html
+      - nadpis, text, odkaz
+
+- priste
+  - poradit Krisovi, jak lepe napsat straight (aspon vnorene ify zmenit na and)
+  - straight flush
+  - spocitat rank kombinace
+  - otestovat pravdepodobnosti
