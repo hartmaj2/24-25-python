@@ -459,3 +459,24 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - straight flush
   - spocitat rank kombinace
   - otestovat pravdepodobnosti
+
+## 16.5.2025
+
+- Kris i Vlada
+  - co jsou to cookies v prohlizeci
+  - IP ban na internetu
+
+- Vlada
+  - reseni uloh z umime informatiku (python zelva, ukolovka atd.)
+
+- Kris
+  - dodelani programu poker
+    - straight flush (logicka operace and a tabulka s 0 a 1)
+    - funkce na spocitani ranku hrace
+    - trideni hracu pomoci ranku
+    - testovani reseni v ksp odevzdavatku
+
+- priste
+  - dodelat poker trideni v ramci jedne kombinace
+  - javascript
+  - web scraping
