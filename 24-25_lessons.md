@@ -440,7 +440,7 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - spocitat rank kombinace
   - otestovat pravdepodobnosti
 
-## 9.5.2025
+### 9.5.2025
 
 - Vlada
   - co to je html?
@@ -460,7 +460,7 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - spocitat rank kombinace
   - otestovat pravdepodobnosti
 
-## 16.5.2025
+### 16.5.2025
 
 - Kris i Vlada
   - co jsou to cookies v prohlizeci
