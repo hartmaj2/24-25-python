@@ -480,3 +480,16 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
   - dodelat poker trideni v ramci jedne kombinace
   - javascript
   - web scraping
+
+### 23.5.2025
+
+- Kris i Vlada
+  - web scraping - co to je
+  - jak ziskat html data ze stranky
+    - to je ale neprehledne jako polivka
+  - pouzijeme Beautiful Soup, ktery nam to zprehledni
+    - instalace balicku beautifulsoap4
+  - opakovani: html 
+    - tagy
+    - html strom
+    - find_all() pro nalezeni vsech deti nejakeho tagu
