@@ -493,3 +493,22 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - tagy
     - html strom
     - find_all() pro nalezeni vsech deti nejakeho tagu
+
+### 30.5.2025
+
+- Kris
+  - dodelani web-scrapovaciho programu
+  - nacteni hracu do seznamu
+    - list slicing
+  - tvorba kvizoveho programu
+    - jake narodnosti je dany hrac?
+  - funkce na dve ruzne moznosti hry
+    - hadani narodnosti nebo hadani tymu
+
+- priste
+  - ukazat tvorbu a pouzivani vlastnich modulu
+    - dve ruzne hry, ktera pouzivaji stejna web scrapovana data
+  - vylepsit volby hry
+    - je tam spoustu casti kodu, ktere jsou stejne, jak to vylepsit
+    - kouknout na krisuv github, tam ten program je
+  - ukazat knihovnu selenium a zkusit naprogramovat autoclicker
