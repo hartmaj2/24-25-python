@@ -1,3 +1,8 @@
+# This is a game which lets you guess, which capital city has a higher population
+
+# This game uses the country_extractor to get the list of countries
+# Country is an object described in country module (name,capital,population)
+
 import country_extractor as ce
 import random
 from country import Country
