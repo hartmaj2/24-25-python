@@ -4,10 +4,18 @@ from country import Country
 
 import os
 
-def run_round(country1 : Country, country2 : Country):
+def print_result_row(country : Country):
+    print(f"{country.capital:<30}{country.population:,}{"capital of ":>20}{country.name}")
+
+def get_more_populous_country(country1 : Country, country2 : Country):
     correct = country2
     if country1.population > country2.population:
         correct = country1
+    return correct
+
+def run_round(country1 : Country, country2 : Country):
+
+    correct  = get_more_populous_country(country1,country2)
 
     print(f"{country1.capital:20} X {country2.capital:>20}")
     selection = input("Which city has bigger population? :").strip()
@@ -17,8 +25,8 @@ def run_round(country1 : Country, country2 : Country):
     else:
         print("Wrong!")
 
-    print(f"{country1}")
-    print(f"{country2}")
+    print_result_row(country1)
+    print_result_row(country2)
 
 countries = ce.extract_countries(150)
 
