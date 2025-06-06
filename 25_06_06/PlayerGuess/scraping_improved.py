@@ -9,6 +9,7 @@ from typing import Callable
 import bs4
 
 
+# represents a football player
 class Player:
     def __init__(self, name, team, nationality, position):
         self.name = name
@@ -25,6 +26,7 @@ def clear():
     os.system("clear")
 
 
+# retrieves player data from a particular we page
 def scrape_players() -> list[Player]:
     odpoved : HTTPResponse = urllib.request.urlopen("https://www.givemesport.com/ballon-dor-power-rankings/")
 
@@ -49,8 +51,10 @@ clear()
 #   correct_answer is set based on nationality or team -> would be good to pass that information to the function from the outside
 #   different part of thext: Which [country/team] is -||--
 
-
-def play_game(players : list[Player], vybiratko : Callable[[Player],str], jmeno_vlastnosti : str):
+# plays a guessing game, takes players
+# chooses player attribute to ask for based on selector function
+# should provide attr_name for correct attribute text to display
+def play_guessing_game(players : list[Player], selector : Callable[[Player],str], attr_name : str):
     points = 0
     wait_time = 2
     max_points = len(players)
@@ -58,8 +62,8 @@ def play_game(players : list[Player], vybiratko : Callable[[Player],str], jmeno_
     for i in range(len(players)):
         clear()
         random_number = random.randint(0, len(players) - 1)
-        correct_answer = vybiratko(players[random_number]).lower()
-        if input(f"Hello! What is the {jmeno_vlastnosti} of {players[random_number]}? \n").lower() == correct_answer:
+        correct_answer = selector(players[random_number]).lower()
+        if input(f"Hello! What is the {attr_name} of {players[random_number]}? \n").lower() == correct_answer:
             print("Thats correct!!!")
             time.sleep(wait_time)
             points += 1
@@ -73,6 +77,7 @@ def play_game(players : list[Player], vybiratko : Callable[[Player],str], jmeno_
     print(f"You got {points} points out of {max_points}") 
 
 
+# functions that take a player and retrieve the attribute of the player which we want
 def nationality_selector(player : Player) -> str:
     return player.nationality
 
@@ -87,10 +92,10 @@ players = scrape_players()
 game_wanted = input("Which game do you want to play? \n 1- Nationallity game \n 2- Team game \n 3- Position game \n")
 
 if game_wanted == "1":
-    play_game(players,nationality_selector,"nationality")
+    play_guessing_game(players,nationality_selector,"nationality")
 
 elif game_wanted == "2":
-    play_game(players,team_selector,"team")
+    play_guessing_game(players,team_selector,"team")
 
 elif game_wanted == "3":
-    play_game(players,position_selector,"position")
+    play_guessing_game(players,position_selector,"position")
