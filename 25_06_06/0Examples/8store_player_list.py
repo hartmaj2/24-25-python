@@ -1,3 +1,5 @@
+# Example of how we can store players using json
+
 import urllib.request
 
 import bs4
