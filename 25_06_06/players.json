@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Ousmane Dembele",
+    "team": "Paris Saint-Germain",
+    "nationality": "France",
+    "position": "Forward"
+  },
+  {
+    "name": "Lamine Yamal",
+    "team": "Barcelona",
+    "nationality": "Spain",
+    "position": "Forward"
+  },
+  {
+    "name": "Raphinha",
+    "team": "Barcelona",
+    "nationality": "Brazil",
+    "position": "Forward"
+  },
+  {
+    "name": "Mohamed Salah",
+    "team": "Liverpool",
+    "nationality": "Egypt",
+    "position": "Forward"
+  },
+  {
+    "name": "Desire Doue",
+    "team": "Paris Saint-Germain",
+    "nationality": "France",
+    "position": "Forward"
+  },
+  {
+    "name": "Khvicha Kvaratskhelia",
+    "team": "Paris Saint-Germain",
+    "nationality": "Georgia",
+    "position": "Forward"
+  },
+  {
+    "name": "Vitinha",
+    "team": "Paris Saint-Germain",
+    "nationality": "Portugal",
+    "position": "Midfielder"
+  },
+  {
+    "name": "Kylian Mbappe",
+    "team": "Real Madrid",
+    "nationality": "France",
+    "position": "Forward"
+  },
+  {
+    "name": "Pedri",
+    "team": "Barcelona",
+    "nationality": "Spain",
+    "position": "Midfielder"
+  },
+  {
+    "name": "Lautaro Martinez",
+    "team": "Inter Milan",
+    "nationality": "Argentina",
+    "position": "Forward"
+  },
+  {
+    "name": "Achraf Hakimi",
+    "team": "Paris Saint-Germain",
+    "nationality": "Morocco",
+    "position": "Defender"
+  },
+  {
+    "name": "Gianluigi Donnarumma",
+    "team": "Paris Saint-Germain",
+    "nationality": "Italy",
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Harry Kane",
+    "team": "Bayern Munich",
+    "nationality": "England",
+    "position": "Forward"
+  },
+  {
+    "name": "Robert Lewandowski",
+    "team": "Barcelona",
+    "nationality": "Poland",
+    "position": "Forward"
+  },
+  {
+    "name": "Vinicius Jr",
+    "team": "Real Madrid",
+    "nationality": "Brazil",
+    "position": "Forward"
+  },
+  {
+    "name": "Alessandro Bastoni",
+    "team": "Inter Milan",
+    "nationality": "Italy",
+    "position": "Defender"
+  },
+  {
+    "name": "Virgil van Dijk",
+    "team": "Liverpool",
+    "nationality": "Netherlands",
+    "position": "Defender"
+  },
+  {
+    "name": "Cole Palmer",
+    "team": "Chelsea",
+    "nationality": "England",
+    "position": "Forward"
+  },
+  {
+    "name": "Bukayo Saka",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Forward"
+  },
+  {
+    "name": "Declan Rice",
+    "team": "Arsenal",
+    "nationality": "England",
+    "position": "Midfielder"
+  }
+]
