@@ -512,3 +512,31 @@ Kris - omezeni behani postavy na pouhy vnitrek obrazovky
     - je tam spoustu casti kodu, ktere jsou stejne, jak to vylepsit
     - kouknout na krisuv github, tam ten program je
   - ukazat knihovnu selenium a zkusit naprogramovat autoclicker
+
+## Cerven
+
+### 6.6.2025
+
+- Kris
+
+  - oprava programu na hadani hracu
+    - tvorba jedne funkce zastupujici dve predesle
+      - nechat si opakujici se kod
+      - to co se lisi predame jako volitelna data skrze parametry funkce
+        - jmeno atributu
+        - funkce, ktera vyextraktuje hodnotu, kterou chceme
+
+  - tvorba vlastnich modulu
+    - proc je to uzitecne?
+      - celkove mensi mnozstvi kodu
+      - zmenit staci na jednom miste a projevi se vsude
+    - konstrukce `from MODUL import TRIDA/FUNKCE`
+    - jake rozdilne casti programu mame (ty bychom chteli rozdelit)
+      - deklarace tridy
+      - scraping
+      - hra
+
+  - hratky se selenium
+    - instalace balicku selenium
+    - instalace webdriveru pro Chrome
+    - programovani automatickeho cookie clickeru
