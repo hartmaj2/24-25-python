@@ -45,7 +45,7 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 
 - Kris + Vlada
   - hadanka na ruzne druhy cyklu
-  - lehci sviceni se seznamy hotovo
+  - lehci cviceni se seznamy hotovo
     - indexace
     - append
     - pop
@@ -54,7 +54,7 @@ Kris - ukázka Visual Studio Code, Python interaktivní prostředí, program se 
 - Kris 
   - zacatek prace na tezsim cviceni
     - funguje odecteni ceny pri nakupu
-    - chyby kontrola, zda mame dost penez
+    - chybi kontrola, zda mame dost penez
 
 - priste
   - cookie clicker
