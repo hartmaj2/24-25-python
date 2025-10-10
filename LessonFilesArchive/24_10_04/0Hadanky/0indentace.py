@@ -10,6 +10,6 @@ if health > 50:
     print("You are in great shape!")
 print("With this much HP you can go fight a dragon!")
 if health <= 50:
-    print("You need to find a health pack!")  # This line is not indented correctly
+    print("You need to find a healer!")
 
 print("Let's start the adventure!")
