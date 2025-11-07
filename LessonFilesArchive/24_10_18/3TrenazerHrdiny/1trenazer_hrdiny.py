@@ -14,12 +14,9 @@
 # 3. Pracovat
 # 4. Do hospody hrat kostky 
 
-# TODO: Ziskej od uzivatele jeho volbu a podle toho uprav jeho hodnoty (uber zdravi, pridej penize atd)
-# napriklad:
-# 
+# TODO: Ziskej od uzivatele jeho volbu a podle toho vykonej danou cinnost a uprav hodnoty (uber zdravi, pridej penize atd)
 
 # TODO: Udelej, abys mohl toto opakovat porad dokola, dokud uzivatel nezada volbu konec
-
 
 # BONUS TODO: Pridej prvky nahody (nahodny pocet penez atd.)
 
