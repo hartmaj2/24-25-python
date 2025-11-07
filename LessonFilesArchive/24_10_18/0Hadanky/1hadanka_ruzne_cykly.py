@@ -1,5 +1,5 @@
 # Jaky je rozdil mezi tremi nasledujicimi cykly?
-# vizualizovat v [python tutor](https://pythontutor.com/)
+# vizualizovat v Thonny
 
 seznam = ["kocka","vlocka","cocka","ocka"]
 
@@ -18,13 +18,11 @@ while i < 4:
 
 
 print("2.")
-# 2.
 for i in range(4):
     print(seznam[i])
 
 
 print("3.")
-# 3.
 for prvek in seznam:
     print(prvek)
 
